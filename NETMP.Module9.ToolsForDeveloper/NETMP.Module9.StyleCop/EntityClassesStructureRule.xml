@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="Custom rules">
+  <Description>Entity class should be public, have [DataContract] attribute and properties Id and Name as required.</Description>
+  <Rules>
+    <Rule Name="EntityClassesStructureRule" CheckId="MP0001">
+      <Context>Entity class should be public, have [DataContract] attribute and properties Id and Name as required.</Context>
+      <Description>Entity class should be public, have [DataContract] attribute and properties Id and Name as required.</Description>
+    </Rule>
+  </Rules>
+</SourceAnalyzer>
